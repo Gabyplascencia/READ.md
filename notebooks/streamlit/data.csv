@@ -1,0 +1,11 @@
+Librerías importadas
+
+pandas as pd
+ plotly_express
+ streamlit
+ 
+
+Data utlilizado
+/Users/DELL/Downloads/mountains_vs_beaches_preferences.csv
+Este data se ha descragado para analizar la preferencia de viajar a la playa o las montañas en personas residentes de USA
+Evaluando su ingreso, escolaridad, cercania a la playa o montaña, edad, genero, etc.
