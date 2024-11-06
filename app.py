@@ -2,8 +2,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
         
-data = pd.read_csv( "/Users/DELL/Downloads/mountains_vs_beaches_preferences.csv") # leer los datos
+data = pd.read_csv("mountains_vs_beaches_preferences.csv") # leer los datos
 
+print(data)
 
 st.header('Analisis sobre las preferencias vacaiones en playa o montaña en personas de USA')
 
