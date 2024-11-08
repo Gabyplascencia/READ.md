@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
         
-data = pd.read_csv("mountains_vs_beaches_preferences.csv") # leer los datos
+data = pd.read_csv("vehicles_us.csv") # leer los datos
 
 print(data)
 
