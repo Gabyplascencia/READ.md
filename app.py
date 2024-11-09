@@ -48,7 +48,7 @@ if build_histogram: # si la casilla de verificación está seleccionada
     st.write('Visualizar autos basados en su tipo de combbustible')
 
 # crear un histograma
-    fig= px.histogram(data, x="fuel")
+    fig= px.histogram(data, x="fuel", color="fuel")
         
 # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
