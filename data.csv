@@ -5,7 +5,9 @@ pandas as pd
  streamlit
  
 
-Data utlilizado
-/Users/DELL/Downloads/mountains_vs_beaches_preferences.csv
-Este data se ha descragado para analizar la preferencia de viajar a la playa o las montañas en personas residentes de USA
-Evaluando su ingreso, escolaridad, cercania a la playa o montaña, edad, genero, etc.
+Data utlilizado:
+
+vehicles_us.csv
+
+Este data se ha descragado desde la plataorma de tripleten para analizar la autos y su relación con el precio, estado, tipo de combustible.
+Con la finalidad de practicar nuevas librerias, repasar los codigos ya aprendidos durante el curso y desarollar una página web con la información para mostrar los resultados.
