@@ -5,7 +5,7 @@ import streamlit as st
 data = pd.read_csv("vehicles_us.csv") # enlace para leer los datos del data a analizar
 
 
-st.header('Visualiación sobre los datos de los carros de un corporativo')
+st.header('Visualización sobre los datos de los carros')
 
 st.write("En esta página analizaremos la relacion entre los carros y sus precios y las condiciones en las cuales se encuentran actualmente para su venta")
 
@@ -17,7 +17,7 @@ if hist_button: # indicación al hacer clic en el botón
     st.write('Creación de un histograma para la relación precio y calidad')
             
 # comdandos para crear un histograma
-    fig = px.histogram(data, x="condition", y="price"
+    fig = px.histogram(data, x="condition", y="price",
                        color="condition", 
                        title="HIstograma de la relació precio y condición de un automóvil")
         
@@ -34,7 +34,7 @@ if scatter_button: # intrucción para hacer clic en el botón
     st.write('Creación de un gráfico de dispersion para los autos y sus modelos')
             
 # comando para crear un gráfico de dispersión
-    fig = px.scatter(data, x="price", y="model_year"
+    fig = px.scatter(data, x="price", y="model_year",
                      color="model", title= "Dispersión entre el modelo y el precio del auto")
         
 # mostrar un gráfico Plotly interactivo
